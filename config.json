@@ -1,0 +1,15 @@
+{
+    "interval": 30,
+    "fields": [
+        "title",
+        "body"
+    ],
+    "cassandra": {
+        "keyspace": "blog",
+        "table": "posts"
+    },
+    "elastic": {
+        "index": "blog",
+        "collection": "posts"
+    }
+}
